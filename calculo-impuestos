@@ -1,0 +1,12 @@
+# Calculadora de impuestos en Python
+
+precio_producto = float(input("Ingrese el precio del producto: "))
+tasa_impuesto = float(input("Ingrese la tasa de impuestos en porcentaje: "))
+
+impuesto = precio_producto * (tasa_impuesto / 100)
+
+precio_total = precio_producto + impuesto
+
+print("El precio del producto es: $", precio_producto)
+print("El impuesto sobre las ventas es: $", impuesto)
+print("El precio total con impuestos es: $", precio_total)
